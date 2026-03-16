@@ -21,5 +21,5 @@ export default async function VenueDetailPage({params}:{params:{vid:string}}){
 }
 
 export async function generateStaticParams() {
-    return [{vid:'001'},{vid:'002'},{vid:'003'},{vid:'004'}]
+    return [{vid:'001'},{vid:'002'},{vid:'003'}]
 }
